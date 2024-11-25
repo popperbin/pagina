@@ -1,0 +1,51 @@
+.info-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4CAF50; /* Verde sostenible */
+  }
+  
+  .energy-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .energy-card h3 {
+    font-size: 1.5rem;
+    color: #2196F3; /* Azul confiable */
+    margin-bottom: 10px;
+  }
+  
+  .energy-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .energy-details h4 {
+    font-size: 1.2rem;
+    color: #4CAF50; /* Verde para subtítulos */
+    margin-top: 15px;
+  }
+  
+  .energy-details ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .energy-details li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333; /* Texto oscuro */
+  }
+  

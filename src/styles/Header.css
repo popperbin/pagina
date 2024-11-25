@@ -1,0 +1,40 @@
+header {
+    background-color: #343a40; /* Fondo oscuro */
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header .nav-link {
+    margin-left: 15px; /* Separación entre enlaces */
+    transition: color 0.3s ease;
+  }
+  
+  header .nav-link:hover {
+    color: #ffd700; /* Cambia a dorado al pasar el cursor */
+  }
+  
+  .navbar {
+    background-color: #343a40; /* Fondo oscuro */
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffd700; /* Color dorado al pasar el mouse */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  

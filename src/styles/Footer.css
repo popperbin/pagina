@@ -1,0 +1,65 @@
+/* Estilo general del Footer */
+footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    padding: 40px 0; /* Espaciado superior e inferior */
+  }
+  
+  footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f1f1f1; /* Títulos ligeramente más claros */
+  }
+  
+  footer ul {
+    padding: 0;
+    list-style: none; /* Quita los puntos de la lista */
+  }
+  
+  footer ul li {
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
+  }
+  
+  footer ul li a {
+    color: #ddd; /* Texto más claro */
+    text-decoration: none; /* Quita subrayado */
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #4CAF50; /* Cambia a verde al pasar el mouse */
+  }
+  
+  /* Estilo de las redes sociales */
+  footer .text-center a {
+    font-size: 1.5rem; /* Tamaño de los iconos */
+    margin: 0 10px; /* Espaciado entre iconos */
+    color: #ddd; /* Color inicial */
+    transition: color 0.3s ease; /* Efecto de transición */
+  }
+  
+  footer .text-center a:hover {
+    color: #4CAF50; /* Cambia a verde al pasar el mouse */
+  }
+  
+  /* Información de contacto */
+  footer p {
+    margin-bottom: 10px; /* Espaciado entre líneas */
+    font-size: 0.95rem;
+    color: #ccc; /* Texto más claro */
+  }
+  
+  /* Nota final */
+  footer .text-center small {
+    font-size: 0.85rem;
+    color: #bbb; /* Texto tenue */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    footer .row > div {
+      margin-bottom: 20px; /* Espaciado entre columnas en dispositivos móviles */
+      text-align: center; /* Centra el contenido en móviles */
+    }
+  }
+  

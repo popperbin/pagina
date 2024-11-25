@@ -1,0 +1,22 @@
+.dashboard-container {
+    margin: 20px auto; /* Espaciado superior e inferior */
+    padding: 20px; /* Espaciado interno */
+    max-width: 1000px; /* Anchura máxima del dashboard */
+    background-color: #f9f9f9; /* Fondo claro para separar del footer */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  }
+  
+  .dashboard-container h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Verde para el título */
+  }
+  
+  .dashboard-container canvas {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  

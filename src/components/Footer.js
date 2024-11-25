@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Footer.css"; 
 
 function Footer() {
   return (
@@ -9,10 +10,10 @@ function Footer() {
           <div className="col-md-4">
             <h5>Navegación</h5>
             <ul className="list-unstyled">
-              <li><a href="#home" className="text-white">Inicio</a></li>
-              <li><a href="#about" className="text-white">Sobre Nosotros</a></li>
-              <li><a href="#services" className="text-white">Servicios</a></li>
-              <li><a href="#contact" className="text-white">Contacto</a></li>
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#about">Sobre Nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#contact">Contacto</a></li>
             </ul>
           </div>
           
@@ -20,14 +21,14 @@ function Footer() {
           <div className="col-md-4 text-center">
             <h5>Síguenos</h5>
             <div>
-              <a href="https://facebook.com" className="text-white me-3">
-                <i className="fab fa-facebook-f"></i> Facebook
+              <a href="https://facebook.com" className="me-3">
+                <i className="fab fa-facebook-f"></i> 
               </a>
-              <a href="https://twitter.com" className="text-white me-3">
-                <i className="fab fa-twitter"></i> Twitter
+              <a href="https://twitter.com" className="me-3">
+                <i className="fab fa-twitter"></i> 
               </a>
-              <a href="https://instagram.com" className="text-white">
-                <i className="fab fa-instagram"></i> Instagram
+              <a href="https://instagram.com">
+                <i className="fab fa-instagram"></i> 
               </a>
             </div>
           </div>
@@ -43,7 +44,7 @@ function Footer() {
         
         {/* Nota final */}
         <div className="text-center mt-3">
-          <small>&copy; 2024 FUTURE ENERGY. Todos los derechos reservados.</small>
+          <small>&copy; 2024 SwiftByte. Todos los derechos reservados.</small>
         </div>
       </div>
     </footer>
@@ -51,3 +52,4 @@ function Footer() {
 }
 
 export default Footer;
+
